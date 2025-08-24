@@ -1,0 +1,7 @@
+nanoLogger_FW/.vs
+nanoLogger_FW/nanoLogger_FW/.atmel-start-backup
+nanoLogger_FW/nanoLogger_FW/.atmelstart
+nanoLogger_FW/nanoLogger_FW/Debug
+nanoLogger_FW/nanoLogger_FW/Release
+nanoLogger_FW/nanoLogger_FW/jlink*
+nanoLogger_FW/debug.log

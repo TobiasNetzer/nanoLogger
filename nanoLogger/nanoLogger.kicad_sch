@@ -1,0 +1,1287 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1638b886-a75a-4be9-b98b-73368f5b40d2")
+	(paper "A4")
+	(title_block
+		(title "nanoLogger Overview")
+		(date "2021-10-16")
+		(rev "A")
+		(company "Erstellt von: Tobias Netzer")
+		(comment 3 "Übersichtsblatt")
+		(comment 4 "- nanoLogger -")
+	)
+	(lib_symbols
+		(symbol "nanoLogger:MountingHole_M3"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_M3"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "nanoLogger:MountingHole_M3"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_M3_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Befestigungslöcher"
+		(exclude_from_sim no)
+		(at 20.32 163.83 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "87ffa874-0adc-4aa7-8edd-812511d8760c")
+	)
+	(junction
+		(at 160.02 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3559e287-424e-4397-b080-77c7ba6f395b")
+	)
+	(wire
+		(pts
+			(xy 127 111.76) (xy 148.59 111.76)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "03557b67-c888-419f-b8ac-f9717b35c02b")
+	)
+	(wire
+		(pts
+			(xy 148.59 111.76) (xy 148.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "03557b67-c888-419f-b8ac-f9717b35c02c")
+	)
+	(wire
+		(pts
+			(xy 148.59 58.42) (xy 165.1 58.42)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "03557b67-c888-419f-b8ac-f9717b35c02d")
+	)
+	(wire
+		(pts
+			(xy 127 129.54) (xy 166.37 129.54)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "18ab3a0c-c5b8-4487-a3c7-8a196dd49c5c")
+	)
+	(wire
+		(pts
+			(xy 160.02 69.85) (xy 160.02 123.19)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "24c93414-77ad-4e5d-bb3c-1bc15f5fd8d8")
+	)
+	(wire
+		(pts
+			(xy 160.02 123.19) (xy 127 123.19)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "29faf23b-247f-41a9-83ec-43a6e2d49c13")
+	)
+	(wire
+		(pts
+			(xy 165.1 69.85) (xy 160.02 69.85)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "29faf23b-247f-41a9-83ec-43a6e2d49c14")
+	)
+	(wire
+		(pts
+			(xy 127 44.45) (xy 165.1 44.45)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "3ad5f9eb-bee9-406d-b189-a9629d76273c")
+	)
+	(wire
+		(pts
+			(xy 127 41.91) (xy 165.1 41.91)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "6ca95006-2b7a-42e2-95b7-5d5f51ef332a")
+	)
+	(wire
+		(pts
+			(xy 127 114.3) (xy 151.13 114.3)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7672846b-75e9-40d5-9966-f738598ed914")
+	)
+	(wire
+		(pts
+			(xy 151.13 114.3) (xy 151.13 60.96)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7672846b-75e9-40d5-9966-f738598ed915")
+	)
+	(wire
+		(pts
+			(xy 151.13 60.96) (xy 165.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7672846b-75e9-40d5-9966-f738598ed916")
+	)
+	(wire
+		(pts
+			(xy 127 137.16) (xy 166.37 137.16)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "768faf64-3ac5-455b-b3e5-1bd0d6537d8c")
+	)
+	(wire
+		(pts
+			(xy 127 139.7) (xy 166.37 139.7)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "83d9544b-6f15-4d3e-862c-df5c084a338a")
+	)
+	(wire
+		(pts
+			(xy 165.1 53.34) (xy 143.51 53.34)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "905deced-def8-402f-8b5b-7da2f9918539")
+	)
+	(wire
+		(pts
+			(xy 143.51 106.68) (xy 127 106.68)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "905deced-def8-402f-8b5b-7da2f991853a")
+	)
+	(wire
+		(pts
+			(xy 143.51 53.34) (xy 143.51 106.68)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "905deced-def8-402f-8b5b-7da2f991853b")
+	)
+	(wire
+		(pts
+			(xy 146.05 55.88) (xy 165.1 55.88)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "94145ad3-4f14-4fea-8e60-80f777c5780d")
+	)
+	(wire
+		(pts
+			(xy 127 109.22) (xy 146.05 109.22)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "94145ad3-4f14-4fea-8e60-80f777c5780e")
+	)
+	(wire
+		(pts
+			(xy 146.05 109.22) (xy 146.05 55.88)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "94145ad3-4f14-4fea-8e60-80f777c5780f")
+	)
+	(wire
+		(pts
+			(xy 127 134.62) (xy 166.37 134.62)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "94b8da3c-8154-4e9a-a27b-34872ee04d77")
+	)
+	(wire
+		(pts
+			(xy 127 120.65) (xy 157.48 120.65)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "9730330e-050d-40a5-b7d9-91db7ed2af88")
+	)
+	(wire
+		(pts
+			(xy 157.48 120.65) (xy 157.48 67.31)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "9730330e-050d-40a5-b7d9-91db7ed2af89")
+	)
+	(wire
+		(pts
+			(xy 157.48 67.31) (xy 165.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "9730330e-050d-40a5-b7d9-91db7ed2af8a")
+	)
+	(wire
+		(pts
+			(xy 140.97 50.8) (xy 165.1 50.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a57d3cfe-0f1b-40d4-af45-836bc1f0e86d")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 140.97 104.14)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a57d3cfe-0f1b-40d4-af45-836bc1f0e86e")
+	)
+	(wire
+		(pts
+			(xy 140.97 104.14) (xy 140.97 50.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a57d3cfe-0f1b-40d4-af45-836bc1f0e86f")
+	)
+	(wire
+		(pts
+			(xy 127 132.08) (xy 166.37 132.08)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e224d95a-adc4-4082-bcc4-53d9bffb6841")
+	)
+	(wire
+		(pts
+			(xy 160.02 123.19) (xy 166.37 123.19)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f3665021-65a8-444f-8c58-5ddf12437b4e")
+	)
+	(symbol
+		(lib_id "nanoLogger:MountingHole_M3")
+		(at 44.45 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15ee4812-84c1-4ecb-8bdb-eae927b93adc")
+		(property "Reference" "H2"
+			(at 46.99 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_M3"
+			(at 44.45 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nanoLogger:MountingHole_M3"
+			(at 44.45 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Beschreibung" "~"
+			(at 44.45 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hersteller" "~"
+			(at 44.45 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hersteller-Nr." "~"
+			(at 44.45 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lieferant" "~"
+			(at 44.45 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lieferant-Nr." "~"
+			(at 44.45 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1638b886-a75a-4be9-b98b-73368f5b40d2"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nanoLogger:MountingHole_M3")
+		(at 31.75 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8ef2295-1e50-4b6d-a0e6-f5ed53ff983d")
+		(property "Reference" "H3"
+			(at 34.29 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_M3"
+			(at 31.75 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nanoLogger:MountingHole_M3"
+			(at 31.75 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Beschreibung" "~"
+			(at 31.75 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hersteller" "~"
+			(at 31.75 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hersteller-Nr." "~"
+			(at 31.75 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lieferant" "~"
+			(at 31.75 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lieferant-Nr." "~"
+			(at 31.75 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1638b886-a75a-4be9-b98b-73368f5b40d2"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nanoLogger:MountingHole_M3")
+		(at 44.45 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc2a954d-7d95-403c-b832-7a0385d7b8bc")
+		(property "Reference" "H4"
+			(at 46.99 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_M3"
+			(at 44.45 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nanoLogger:MountingHole_M3"
+			(at 44.45 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Beschreibung" "~"
+			(at 44.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hersteller" "~"
+			(at 44.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hersteller-Nr." "~"
+			(at 44.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lieferant" "~"
+			(at 44.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lieferant-Nr." "~"
+			(at 44.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1638b886-a75a-4be9-b98b-73368f5b40d2"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nanoLogger:MountingHole_M3")
+		(at 31.75 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e24f0d03-6a95-4cb9-994f-187a532dd484")
+		(property "Reference" "H1"
+			(at 34.29 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_M3"
+			(at 31.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nanoLogger:MountingHole_M3"
+			(at 31.75 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Beschreibung" "~"
+			(at 31.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hersteller" "~"
+			(at 31.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Hersteller-Nr." "~"
+			(at 31.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lieferant" "~"
+			(at 31.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lieferant-Nr." "~"
+			(at 31.75 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1638b886-a75a-4be9-b98b-73368f5b40d2"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 25.4)
+		(size 38.1 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "175c702b-440d-4e33-9d5e-7dcc82f729b5")
+		(property "Sheetname" "MCU & Status LEDs"
+			(at 165.1 24.6376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_LEDs.kicad_sch"
+			(at 165.1 76.8354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 165.1 44.45 180)
+			(uuid "7e30b3f7-6a5b-4a31-9693-f5e20677fda2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 165.1 41.91 180)
+			(uuid "8108d72d-ad76-40e8-809f-d1fc926cc7ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_Range_Switch_5_ON" input
+			(at 165.1 60.96 180)
+			(uuid "f67dd4f5-a47b-4265-b47b-5ce452f98008")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_Range_Switch_1_ON" input
+			(at 165.1 50.8 180)
+			(uuid "2d4739d4-0622-435e-ad4b-def00e62bd3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_Range_Switch_4_ON" input
+			(at 165.1 58.42 180)
+			(uuid "27e3b112-60ff-4aaa-84e0-c327847d7b43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_Range_Switch_2_ON" input
+			(at 165.1 53.34 180)
+			(uuid "ee0e8909-1856-44bc-8f29-7aaba4b6ac08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_Range_Switch_3_ON" input
+			(at 165.1 55.88 180)
+			(uuid "dfd2083d-ada2-4ca4-b917-02d9db93e66a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Amplified_VDUT" input
+			(at 165.1 69.85 180)
+			(uuid "fff38a5b-2a2e-4b64-82c1-83c337e42785")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "External_Trigger_Input" input
+			(at 165.1 67.31 180)
+			(uuid "a6bd5b19-a8ca-4177-ab73-715c3d4522ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "nanoLogger"
+				(path "/1638b886-a75a-4be9-b98b-73368f5b40d2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 25.4)
+		(size 38.1 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "30486043-3967-414f-ae27-d3c560067a9d")
+		(property "Sheetname" "USB & Power Supply Isolation"
+			(at 88.9 24.6376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_Power_Isolation.kicad_sch"
+			(at 88.9 76.8354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 127 41.91 0)
+			(uuid "545b4493-de6d-4177-944b-b5b27a40349d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 127 44.45 0)
+			(uuid "c84d2cd1-7b10-4c25-8234-8dd14610184f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "nanoLogger"
+				(path "/1638b886-a75a-4be9-b98b-73368f5b40d2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 95.25)
+		(size 38.1 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "4247f122-e56c-414c-a1ea-9915cc8df28c")
+		(property "Sheetname" "External Trigger, Current Sensing & Amplification"
+			(at 88.9 94.4876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current_Sensing.kicad_sch"
+			(at 88.9 146.6854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Amplified_VDUT" output
+			(at 127 123.19 0)
+			(uuid "45a5e25f-9497-466b-829e-0104fa74a1a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Range_Switch_2_ON" input
+			(at 127 132.08 0)
+			(uuid "98f44012-84c6-418b-bd8f-690088fa8882")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Range_Switch_5_ON" input
+			(at 127 139.7 0)
+			(uuid "8c7e9ee5-6dfd-4220-a45d-76258b4220c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Range_Switch_4_ON" input
+			(at 127 137.16 0)
+			(uuid "9b0ef40a-6978-4f55-8378-b0016d1ffa21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Range_Switch_3_ON" input
+			(at 127 134.62 0)
+			(uuid "496bc22f-7e03-467d-bd29-e5a1c23b1447")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Range_Switch_1_ON" input
+			(at 127 129.54 0)
+			(uuid "a77de16f-34bd-40de-9f3c-c915567880b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_Range_Switch_3_ON" output
+			(at 127 109.22 0)
+			(uuid "a07bf337-2788-4cfa-a0f9-9a5422a797f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_Range_Switch_4_ON" output
+			(at 127 111.76 0)
+			(uuid "e520c1b2-7817-411e-adf2-ded32eaa1844")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_Range_Switch_5_ON" output
+			(at 127 114.3 0)
+			(uuid "30a77195-f4ec-486b-9c88-028d109f462a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_Range_Switch_2_ON" output
+			(at 127 106.68 0)
+			(uuid "0039f8da-8baf-44dd-8433-bc2fb06d415f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_Range_Switch_1_ON" output
+			(at 127 104.14 0)
+			(uuid "ab00f630-4fa5-4c41-9c8c-8f0b4e319296")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "External_Trigger_Input" output
+			(at 127 120.65 0)
+			(uuid "70be8b19-4828-46cc-b0d0-12f507cb91d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "nanoLogger"
+				(path "/1638b886-a75a-4be9-b98b-73368f5b40d2"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 95.25)
+		(size 38.1 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "a6f73d92-c2a9-4429-bada-da2aab49f947")
+		(property "Sheetname" "Automatic Range Switching"
+			(at 166.37 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "automatic_range_switching.kicad_sch"
+			(at 166.37 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Range_Switch_5_ON" output
+			(at 166.37 139.7 180)
+			(uuid "40b6590b-025b-4b32-b2f5-11b26df46c61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Range_Switch_4_ON" output
+			(at 166.37 137.16 180)
+			(uuid "c8993316-8f5d-4df9-9fa8-77ccd3e1e3a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Range_Switch_1_ON" output
+			(at 166.37 129.54 180)
+			(uuid "bd4cfeb4-82f6-4ce2-893d-1b84c329fe6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Range_Switch_2_ON" output
+			(at 166.37 132.08 180)
+			(uuid "a01386c5-d9c8-4662-b3df-27c77e7819c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Range_Switch_3_ON" output
+			(at 166.37 134.62 180)
+			(uuid "124004cb-136f-4ba0-bce6-2fba9ab091f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Amplified_VDUT" input
+			(at 166.37 123.19 180)
+			(uuid "c93f591b-32e6-4d03-b20e-e821af1e3243")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "nanoLogger"
+				(path "/1638b886-a75a-4be9-b98b-73368f5b40d2"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

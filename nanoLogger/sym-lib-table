@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "nanoLogger")(type "KiCad")(uri "${KIPRJMOD}/lib/nanoLogger.kicad_sym")(options "")(descr ""))
+)
