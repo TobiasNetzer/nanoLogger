@@ -17,4 +17,4 @@ The captured data is buffered internally in the microcontroller and then transfe
 
 I've written a very detailed explanation as part of the project documentation. You can read more about it [here](docs/Technikerarbeit_Tobias_Netzer.pdf) if you are interested in the design aspects and my thoughts behind them. This is also where you can find all the schematics and technical drawings. The documentation was however written in German.
 
-![images](docs/Render%20Assembled%20Top.png)
+![image](docs/Render%20Assembled%20Top.png)
